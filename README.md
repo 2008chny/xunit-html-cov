@@ -5,7 +5,7 @@
 The XunitHTMLCov reporter is similar to the xunit and html reporter, however when run against a library instrumented by node-jscoverage it will produce coverage output.
 
 ## How to use
-* Add "xunit-html-cov" to your package.json as a developmentDependency
+* Add "xunit-html-cov" to your Mocha's reporters path
 * Run mocha with -R xunit-html-cov or --reporter xunit-html-cov
 * The xunit-html-cov is stored in process.cwd() or a given path in the config.json
 
