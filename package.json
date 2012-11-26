@@ -1,11 +1,15 @@
 {
   "name": "xunit-html-cov",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The XunitHTMLCov reporter is similar to the xunit and html reporter, however when run against a library instrumented by node-jscoverage it will produce coverage output.",
   "author": {
      "name": "neco",
      "email": "2008chny@gmail.com"
   },
+  "contributors": [{
+    "name": "Kevan Dunsmore",
+    "email": "kevan@sunsprinter.com"
+  }],
   "main" : "lib/xunit-html-cov.js",
   "repository": {
     "type": "git",
@@ -19,5 +23,8 @@
     "coverage",
     "reporter"
   ],
+  "dependencies":{
+    "jade":"0.27.7"
+  },
   "license": "MIT"
 }
